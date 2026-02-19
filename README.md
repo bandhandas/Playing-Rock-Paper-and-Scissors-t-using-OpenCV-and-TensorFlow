@@ -66,6 +66,11 @@ README.md # Project documentation
 
 ## 🖥️ Output Screenshots
 
+![Result 1](assets/result1.png)
+![Result 2](assets/result2.png)
+![Result 3](assets/result3.png)
+
+
 
 ## 🔮 Future Improvements
 
