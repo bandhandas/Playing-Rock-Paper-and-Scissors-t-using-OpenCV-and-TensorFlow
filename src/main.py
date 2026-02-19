@@ -19,7 +19,8 @@ startGame = False
 scores = [0,0]
 
 while True:
-    imgBG = cv2.imread('C:\\Users\\dasba\\Downloads\\Rock_Paper_Scissor_using_AI-main\\Rock_Paper_Scissor_using_AI-main\\AI-Rock-Paper-Scissor-with-hand-gesture-main\\Resources\\BG.png')
+   imgBG = cv2.imread('assets/ui.png')
+   imgAI = cv2.imread(f'assets/{randomNumber}.png', cv2.IMREAD_UNCHANGED)
     SUCCESS, img = cap.read()
 
     imgScaled = cv2.resize(img, (0,0), None, 0.875, 0.875)
@@ -52,7 +53,7 @@ while True:
 
                     randomNumber = random.randint(1, 3)
 
-                    imgAI = cv2.imread(f'C:\\Users\\dasba\\Downloads\\Rock_Paper_Scissor_using_AI-main\\Rock_Paper_Scissor_using_AI-main\\AI-Rock-Paper-Scissor-with-hand-gesture-main\\Resources\\{randomNumber}.png', cv2.IMREAD_UNCHANGED)
+                    imgAI = cv2.imread(f'assests/{randomNumber}.png', cv2.IMREAD_UNCHANGED)
                     imgBG = cvzone.overlayPNG(imgBG, imgAI, (149, 310))
 
                     # Player wins
