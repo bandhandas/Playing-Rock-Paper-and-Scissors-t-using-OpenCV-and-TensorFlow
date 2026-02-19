@@ -51,6 +51,7 @@ python main.py
 ## 📂 Project Structure
 assets/ # Images and UI assets
 │── rock.png
+
 │── paper.png
 │── scissor.png
 │── ui.png
