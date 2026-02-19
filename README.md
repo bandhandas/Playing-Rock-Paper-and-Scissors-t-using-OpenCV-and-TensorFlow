@@ -28,7 +28,7 @@ AI-based Rock-Paper-Scissors game using OpenCV, MediaPipe, and TensorFlow Lite.
 3. Identifies gesture based on finger positions  
 4. Generates random AI move  
 5. Compares moves and displays result  
- ![Workflow](assets/workflow.png)
+
 
 
 ## 📦 Libraries Used
@@ -66,9 +66,6 @@ README.md # Project documentation
 
 ## 🖥️ Output Screenshots
 
-![Result 1](assets/result1.png)
-![Result 2](assets/result2.png)
-![Result 3](assets/result3.png)
 
 ## 🔮 Future Improvements
 
