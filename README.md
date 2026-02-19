@@ -29,6 +29,7 @@ AI-based Rock-Paper-Scissors game using OpenCV, MediaPipe, and TensorFlow Lite.
 4. Generates random AI move  
 5. Compares moves and displays result  
 
+![Workflow](assets/workflow.png)
 
 
 ## 📦 Libraries Used
@@ -53,12 +54,19 @@ assets/ # Images and UI assets
 │── rock.png
 
 │── paper.png
+
 │── scissor.png
+
 │── ui.png
+
 │── result1.png
+
 │── result2.png
+
 │── result3.png
+
 │── workflow.png
+
 
 main.py # Main game logic
 HandTrackingModule.py # Hand detection module
