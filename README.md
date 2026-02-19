@@ -44,6 +44,7 @@ AI-based Rock-Paper-Scissors game using OpenCV, MediaPipe, and TensorFlow Lite.
 
 
 pip install opencv-python mediapipe cvzone numpy
+
 python main.py
 
 
