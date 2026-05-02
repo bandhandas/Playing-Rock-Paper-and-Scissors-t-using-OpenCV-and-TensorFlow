@@ -1,6 +1,6 @@
 # 🎮 Raspberry Pi Hand Gesture Recognition
 
-AI-based Rock-Paper-Scissors game using OpenCV, MediaPipe, and TensorFlow Lite.
+AI-based Rock-Paper-Scissors game using OpenCV and TensorFlow Lite.
 
 ## 📸 Demo
 
